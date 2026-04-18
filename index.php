@@ -50,4 +50,8 @@ echo "<br>";
 echo $Friend[3];
 echo "<br>";
 
+// Null
+$name = NULL;
+
+echo var_dump($name);
 ?>
