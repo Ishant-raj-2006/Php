@@ -17,5 +17,11 @@ echo "$name is friend of $Friend<br>";
 $income = 50000;
 $debit = 5;
 $total = $income-$debit;
-echo "this is My total Expance = $total"
+echo "this is My total Expance  = $total";
+
+// Float
+$fo = 10.5;
+$o = 0.33;
+$diff = $fo-$o;
+echo "<br>This is difference of $fo and $o is $diff";
 ?>
