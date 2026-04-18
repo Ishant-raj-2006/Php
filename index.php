@@ -32,4 +32,22 @@ $num = false;
 $num1 = true;
 echo var_dump($num);
 echo var_dump($num1);
+
+// Object 
+// Employee is a class --> Ishant can be one object 
+
+// Array - used to store Multipale Values in a single variable
+echo "<br>";
+$Friend = array("Ishant", "Raj", "Badal", "Kumar");
+echo var_dump($Friend);
+echo "<br>";
+echo $Friend[0];
+echo "<br>";
+echo $Friend[1];
+echo "<br>";
+echo $Friend[2];
+echo "<br>";
+echo $Friend[3];
+echo "<br>";
+
 ?>
