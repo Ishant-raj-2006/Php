@@ -12,6 +12,10 @@ echo "Hello Ishant Raj <br>";
 // String -Sequence of Characters
 $name = "Ishant";
 $Friend = "Raj";
-echo "$name is friend of $Friend";
+echo "$name is friend of $Friend<br>";
 // Interger - non decimal number 
+$income = 50000;
+$debit = 5;
+$total = $income-$debit;
+echo "this is My total Expance = $total"
 ?>
