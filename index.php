@@ -24,4 +24,12 @@ $fo = 10.5;
 $o = 0.33;
 $diff = $fo-$o;
 echo "<br>This is difference of $fo and $o is $diff";
+
+
+// Boolean - can be either true or false
+echo "<br>";
+$num = false;
+$num1 = true;
+echo var_dump($num);
+echo var_dump($num1);
 ?>
