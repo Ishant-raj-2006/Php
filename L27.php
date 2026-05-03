@@ -19,7 +19,7 @@ if(!$conn){
 
 // Correct SQL query
 $sql = "INSERT INTO `my_table` (`name`, `age`, `gender`) 
-VALUES ('Srivastav', '28', 'M')";
+VALUES ('Srivasta', '28', 'M')";
 
 $result = mysqli_query($conn, $sql);
 
