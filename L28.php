@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Lecture 21</a>
+    <a class="navbar-brand" href="#">Lecture 28</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
       <span class="navbar-toggler-icon"></span>
@@ -89,13 +89,19 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST'){
   <form action="" method="post">
     <div class="mb-3">
       <label class="form-label">Name </label>
-      <input type="email" name="email" class="form-control" required>
+      <input type="text" name="name" class="form-control" required>
     </div>
+
     <div class="mb-3">
       <label class="form-label">email </label>
       <input type="email" name="email" class="form-control" required>
     </div>
 
+    <div class="mb-3">
+      <label class="form-label">Description </label>
+      <textarea class="form-control" name="desc" id="desc" cols="30" row="10"></textarea>
+      <!-- <input type="password" name="desc" class="form-control" required> -->
+    </div>
     <div class="mb-3">
       <label class="form-label">Password</label>
       <input type="password" name="pass" class="form-control" required>
